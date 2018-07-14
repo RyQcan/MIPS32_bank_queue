@@ -1,0 +1,971 @@
+
+*** Running vivado
+    with args -log Top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Top.tcl -notrace
+Command: synth_design -top Top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16088 
+WARNING: [Synth 8-2292] literal value truncated to fit in 7 bits [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:43]
+WARNING: [Synth 8-2507] parameter declaration becomes local in IO_Controller with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:51]
+WARNING: [Synth 8-2507] parameter declaration becomes local in IO_Controller with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:52]
+WARNING: [Synth 8-2507] parameter declaration becomes local in IO_Controller with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:53]
+WARNING: [Synth 8-2507] parameter declaration becomes local in IO_Controller with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:54]
+WARNING: [Synth 8-2507] parameter declaration becomes local in IO_Controller with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:56]
+WARNING: [Synth 8-2507] parameter declaration becomes local in IO_Controller with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:57]
+WARNING: [Synth 8-2507] parameter declaration becomes local in MemoryController with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:99]
+WARNING: [Synth 8-2507] parameter declaration becomes local in MemoryController with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:100]
+WARNING: [Synth 8-2507] parameter declaration becomes local in MemoryController with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:101]
+WARNING: [Synth 8-2507] parameter declaration becomes local in MemoryController with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:102]
+WARNING: [Synth 8-2507] parameter declaration becomes local in MemoryController with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:103]
+WARNING: [Synth 8-2507] parameter declaration becomes local in MemoryController with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:104]
+WARNING: [Synth 8-2507] parameter declaration becomes local in MemoryController with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:105]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:899]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:900]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:901]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:902]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:903]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:904]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:905]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:906]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:907]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:908]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:909]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:910]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:911]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:912]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:913]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:914]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:915]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ALU with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:916]
+WARNING: [Synth 8-2507] parameter declaration becomes local in RegisterFile with formal parameter declaration list [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:951]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 368.727 ; gain = 111.875
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+	Parameter REGBITS bound to: 5 - type: integer 
+	Parameter MEMUNITS bound to: 4096 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Mux2' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1051]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux2' (1#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1051]
+INFO: [Synth 8-6157] synthesizing module 'MIPS' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:198]
+	Parameter WIDTH bound to: 32 - type: integer 
+	Parameter REGBITS bound to: 5 - type: integer 
+	Parameter MEMUNITS bound to: 4096 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'MainController' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:242]
+	Parameter FETCH bound to: 4'b0001 
+	Parameter DECODE bound to: 4'b0010 
+	Parameter JUMPLINK bound to: 4'b0011 
+	Parameter MEMADDR bound to: 4'b0100 
+	Parameter JUMP bound to: 4'b0101 
+	Parameter EXECUTE bound to: 4'b0110 
+	Parameter MEMWRITE bound to: 4'b0111 
+	Parameter MEMREAD bound to: 4'b1000 
+	Parameter ALUTOREG bound to: 4'b1001 
+	Parameter BRLINK bound to: 4'b1010 
+	Parameter BRANCH bound to: 4'b1011 
+	Parameter MEMTOREG bound to: 4'b1100 
+	Parameter SPECIAL bound to: 6'b000000 
+	Parameter SLL bound to: 6'b000000 
+	Parameter SRL bound to: 6'b000010 
+	Parameter SRA bound to: 6'b000011 
+	Parameter SLLV bound to: 6'b000100 
+	Parameter SRLV bound to: 6'b000110 
+	Parameter SRAV bound to: 6'b000111 
+	Parameter JR bound to: 6'b001000 
+	Parameter JALR bound to: 6'b001001 
+	Parameter MOVZ bound to: 6'b001010 
+	Parameter MOVN bound to: 6'b001011 
+	Parameter ADD bound to: 6'b100000 
+	Parameter ADDU bound to: 6'b100001 
+	Parameter SUB bound to: 6'b100010 
+	Parameter SUBU bound to: 6'b100011 
+	Parameter AND bound to: 6'b100100 
+	Parameter OR bound to: 6'b100101 
+	Parameter XOR bound to: 6'b100110 
+	Parameter NOR bound to: 6'b100111 
+	Parameter SLT bound to: 6'b101010 
+	Parameter SLTU bound to: 6'b101011 
+	Parameter J bound to: 6'b000010 
+	Parameter JAL bound to: 6'b000011 
+	Parameter REGIMM bound to: 6'b000001 
+	Parameter BLTZ bound to: 5'b00000 
+	Parameter BGEZ bound to: 5'b00001 
+	Parameter BLTZAL bound to: 5'b10000 
+	Parameter BGEZAL bound to: 5'b10001 
+	Parameter BEQ bound to: 6'b000100 
+	Parameter BNE bound to: 6'b000101 
+	Parameter BLEZ bound to: 6'b000110 
+	Parameter BGTZ bound to: 6'b000111 
+	Parameter ADDI bound to: 6'b001000 
+	Parameter ADDIU bound to: 6'b001001 
+	Parameter SLTI bound to: 6'b001010 
+	Parameter SLTIU bound to: 6'b001011 
+	Parameter ANDI bound to: 6'b001100 
+	Parameter XORI bound to: 6'b001110 
+	Parameter ORI bound to: 6'b001101 
+	Parameter LUI bound to: 6'b001111 
+	Parameter LB bound to: 6'b100000 
+	Parameter LH bound to: 6'b100001 
+	Parameter LBU bound to: 6'b100100 
+	Parameter LHU bound to: 6'b100101 
+	Parameter LWL bound to: 6'b100010 
+	Parameter LW bound to: 6'b100011 
+	Parameter LWR bound to: 6'b100110 
+	Parameter SB bound to: 6'b101000 
+	Parameter SH bound to: 6'b101001 
+	Parameter SWL bound to: 6'b101010 
+	Parameter SW bound to: 6'b101011 
+	Parameter SWR bound to: 6'b101110 
+	Parameter MEMWORD bound to: 3'b001 
+	Parameter MEMWORDLEFT bound to: 3'b010 
+	Parameter MEMWORDRIGHT bound to: 3'b011 
+	Parameter MEMHALFWORD bound to: 3'b100 
+	Parameter MEMHALFWORDU bound to: 3'b101 
+	Parameter MEMBYTE bound to: 3'b110 
+	Parameter MEMBYTEU bound to: 3'b111 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:480]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:490]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:534]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:515]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:560]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:571]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:616]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:613]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:470]
+INFO: [Synth 8-6155] done synthesizing module 'MainController' (2#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:242]
+INFO: [Synth 8-6157] synthesizing module 'ALUDecoder' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:642]
+	Parameter FETCH bound to: 4'b0001 
+	Parameter DECODE bound to: 4'b0010 
+	Parameter JUMPLINK bound to: 4'b0011 
+	Parameter MEMADDR bound to: 4'b0100 
+	Parameter JUMP bound to: 4'b0101 
+	Parameter EXECUTE bound to: 4'b0110 
+	Parameter MEMWRITE bound to: 4'b0111 
+	Parameter MEMREAD bound to: 4'b1000 
+	Parameter ALUTOREG bound to: 4'b1001 
+	Parameter BRLINK bound to: 4'b1010 
+	Parameter BRANCH bound to: 4'b1011 
+	Parameter MEMTOREG bound to: 4'b1100 
+	Parameter SPECIAL bound to: 6'b000000 
+	Parameter SLL bound to: 6'b000000 
+	Parameter SRL bound to: 6'b000010 
+	Parameter SRA bound to: 6'b000011 
+	Parameter SLLV bound to: 6'b000100 
+	Parameter SRLV bound to: 6'b000110 
+	Parameter SRAV bound to: 6'b000111 
+	Parameter JR bound to: 6'b001000 
+	Parameter JALR bound to: 6'b001001 
+	Parameter MOVZ bound to: 6'b001010 
+	Parameter MOVN bound to: 6'b001011 
+	Parameter ADD bound to: 6'b100000 
+	Parameter ADDU bound to: 6'b100001 
+	Parameter SUB bound to: 6'b100010 
+	Parameter SUBU bound to: 6'b100011 
+	Parameter AND bound to: 6'b100100 
+	Parameter OR bound to: 6'b100101 
+	Parameter XOR bound to: 6'b100110 
+	Parameter NOR bound to: 6'b100111 
+	Parameter SLT bound to: 6'b101010 
+	Parameter SLTU bound to: 6'b101011 
+	Parameter J bound to: 6'b000010 
+	Parameter JAL bound to: 6'b000011 
+	Parameter REGIMM bound to: 6'b000001 
+	Parameter BLTZ bound to: 5'b00000 
+	Parameter BGEZ bound to: 5'b00001 
+	Parameter BLTZAL bound to: 5'b10000 
+	Parameter BGEZAL bound to: 5'b10001 
+	Parameter BEQ bound to: 6'b000100 
+	Parameter BNE bound to: 6'b000101 
+	Parameter BLEZ bound to: 6'b000110 
+	Parameter BGTZ bound to: 6'b000111 
+	Parameter ADDI bound to: 6'b001000 
+	Parameter ADDIU bound to: 6'b001001 
+	Parameter SLTI bound to: 6'b001010 
+	Parameter SLTIU bound to: 6'b001011 
+	Parameter ANDI bound to: 6'b001100 
+	Parameter XORI bound to: 6'b001110 
+	Parameter ORI bound to: 6'b001101 
+	Parameter LUI bound to: 6'b001111 
+	Parameter LB bound to: 6'b100000 
+	Parameter LH bound to: 6'b100001 
+	Parameter LBU bound to: 6'b100100 
+	Parameter LHU bound to: 6'b100101 
+	Parameter LWL bound to: 6'b100010 
+	Parameter LW bound to: 6'b100011 
+	Parameter LWR bound to: 6'b100110 
+	Parameter SB bound to: 6'b101000 
+	Parameter SH bound to: 6'b101001 
+	Parameter SWL bound to: 6'b101010 
+	Parameter SW bound to: 6'b101011 
+	Parameter SWR bound to: 6'b101110 
+	Parameter ALUADD bound to: 5'b00000 
+	Parameter ALUADDU bound to: 5'b00001 
+	Parameter ALUSUB bound to: 5'b00010 
+	Parameter ALUSUBU bound to: 5'b00011 
+	Parameter ALUAND bound to: 5'b00100 
+	Parameter ALUOR bound to: 5'b00101 
+	Parameter ALUNOR bound to: 5'b00110 
+	Parameter ALUXOR bound to: 5'b00111 
+	Parameter ALULT bound to: 5'b01000 
+	Parameter ALULTU bound to: 5'b01001 
+	Parameter ALUSLL bound to: 5'b01010 
+	Parameter ALUSRL bound to: 5'b01011 
+	Parameter ALUSRA bound to: 5'b01100 
+	Parameter ALULUI bound to: 5'b01101 
+	Parameter ALUJ bound to: 5'b01110 
+	Parameter ALUCLO bound to: 5'b01111 
+	Parameter ALUCLZ bound to: 5'b10000 
+	Parameter ALUNOP bound to: 5'b11111 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:752]
+INFO: [Synth 8-6155] done synthesizing module 'ALUDecoder' (3#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:642]
+INFO: [Synth 8-6157] synthesizing module 'DataPath' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:821]
+	Parameter WIDTH bound to: 32 - type: integer 
+	Parameter REGBITS bound to: 5 - type: integer 
+	Parameter MEMUNITS bound to: 4096 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Mux2__parameterized0' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1051]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux2__parameterized0' (3#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1051]
+INFO: [Synth 8-6157] synthesizing module 'FlopEn' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1026]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FlopEn' (4#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1026]
+INFO: [Synth 8-6157] synthesizing module 'Flop' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1014]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Flop' (5#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1014]
+INFO: [Synth 8-6157] synthesizing module 'FlopEnReset' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1038]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FlopEnReset' (6#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1038]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:941]
+	Parameter WIDTH bound to: 32 - type: integer 
+	Parameter REGBITS bound to: 5 - type: integer 
+	Parameter MEMUNITS bound to: 4096 - type: integer 
+	Parameter SP bound to: 29 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (7#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:941]
+INFO: [Synth 8-6157] synthesizing module 'Mux4' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1063]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux4' (8#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1063]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:891]
+	Parameter WIDTH bound to: 32 - type: integer 
+	Parameter ALUADD bound to: 5'b00000 
+	Parameter ALUADDU bound to: 5'b00001 
+	Parameter ALUSUB bound to: 5'b00010 
+	Parameter ALUSUBU bound to: 5'b00011 
+	Parameter ALUAND bound to: 5'b00100 
+	Parameter ALUOR bound to: 5'b00101 
+	Parameter ALUNOR bound to: 5'b00110 
+	Parameter ALUXOR bound to: 5'b00111 
+	Parameter ALULT bound to: 5'b01000 
+	Parameter ALULTU bound to: 5'b01001 
+	Parameter ALUSLL bound to: 5'b01010 
+	Parameter ALUSRL bound to: 5'b01011 
+	Parameter ALUSRA bound to: 5'b01100 
+	Parameter ALULUI bound to: 5'b01101 
+	Parameter ALUJ bound to: 5'b01110 
+	Parameter ALUCLO bound to: 5'b01111 
+	Parameter ALUCLZ bound to: 5'b10000 
+	Parameter ALUNOP bound to: 5'b11111 
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (9#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:891]
+INFO: [Synth 8-6157] synthesizing module 'ZeroDetect' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:972]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ZeroDetect' (10#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:972]
+INFO: [Synth 8-6157] synthesizing module 'SignDetect' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:983]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SignDetect' (11#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:983]
+INFO: [Synth 8-6157] synthesizing module 'OverflowDetect' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:994]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OverflowDetect' (12#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:994]
+INFO: [Synth 8-6157] synthesizing module 'SignedCompare' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1101]
+INFO: [Synth 8-6155] done synthesizing module 'SignedCompare' (13#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1101]
+INFO: [Synth 8-6157] synthesizing module 'Mux4__parameterized0' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1063]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux4__parameterized0' (13#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1063]
+INFO: [Synth 8-6157] synthesizing module 'Mux8' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1080]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux8' (14#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1080]
+INFO: [Synth 8-6155] done synthesizing module 'DataPath' (15#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:821]
+INFO: [Synth 8-6155] done synthesizing module 'MIPS' (16#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:198]
+INFO: [Synth 8-6157] synthesizing module 'MemoryController' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:82]
+	Parameter WIDTH bound to: 32 - type: integer 
+	Parameter MEMUNITS bound to: 4096 - type: integer 
+	Parameter MEMWORD bound to: 3'b001 
+	Parameter MEMWORDLEFT bound to: 3'b010 
+	Parameter MEMWORDRIGHT bound to: 3'b011 
+	Parameter MEMHALFWORD bound to: 3'b100 
+	Parameter MEMHALFWORDU bound to: 3'b101 
+	Parameter MEMBYTE bound to: 3'b110 
+	Parameter MEMBYTEU bound to: 3'b111 
+INFO: [Synth 8-3876] $readmem data file 'bank_queue.dat' is read successfully [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:108]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:115]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:121]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:129]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:133]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:113]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:147]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:156]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:163]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:169]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:175]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:185]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:143]
+INFO: [Synth 8-6155] done synthesizing module 'MemoryController' (17#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:82]
+INFO: [Synth 8-6157] synthesizing module 'IO_Controller' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:26]
+	Parameter WIDTH bound to: 32 - type: integer 
+	Parameter up_addr bound to: 16'b0100000000000000 
+	Parameter down_addr bound to: 16'b0100000000001000 
+	Parameter left_addr bound to: 16'b0100000000010000 
+	Parameter sw_addr bound to: 16'b0100000000001100 
+	Parameter AN_addr bound to: 16'b0100000000010100 
+	Parameter tub_addr bound to: 16'b0100000000011000 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:63]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:73]
+INFO: [Synth 8-6155] done synthesizing module 'IO_Controller' (18#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'Top' (19#1) [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:1]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[31]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[30]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[29]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[28]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[27]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[26]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[25]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[24]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[23]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[22]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[21]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[20]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[19]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[18]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[17]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[16]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[15]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[14]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[13]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[12]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[11]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[10]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[9]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[8]
+WARNING: [Synth 8-3331] design IO_Controller has unconnected port WriteData[7]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[30]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[29]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[28]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[27]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[26]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[25]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[24]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[23]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[22]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[21]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[20]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[19]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[18]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[17]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[16]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[15]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[14]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[13]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[12]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[11]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[10]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[9]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[8]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[7]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[6]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[5]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[4]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[3]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[2]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[1]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[0]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[30]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[29]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[28]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[27]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[26]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[25]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[24]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[23]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[22]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[21]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[20]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[19]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[18]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[17]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[16]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[15]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[14]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[13]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[12]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[11]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[10]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[9]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[8]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[7]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[6]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[5]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[4]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[3]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[2]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[1]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[0]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port B[30]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port B[29]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port B[28]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port B[27]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port B[26]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port B[25]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port B[24]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port B[23]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port B[22]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port B[21]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port B[20]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port B[19]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port B[18]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 411.477 ; gain = 154.625
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 411.477 ; gain = 154.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 411.477 ; gain = 154.625
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/constrs_1/new/top.xdc]
+Finished Parsing XDC File [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/constrs_1/new/top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/constrs_1/new/top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 744.984 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 744.984 ; gain = 488.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 744.984 ; gain = 488.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 744.984 ; gain = 488.133
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'State_reg' in module 'MainController'
+INFO: [Synth 8-5587] ROM size for "MemWrite" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "MemRead" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "RegDst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegDst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUSrcA" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "ALUSrcA" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "ALUSrcA" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUSrcB" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "ALUSrcB" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "ALUSrcB" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUSrcB" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUSrcB" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUSignCond" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUSignCond" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegCondSet" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegSet" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "PCWrite" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "Branch" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MemToReg" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "PCSrc" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IREn" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "InstrOrData" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "NextState" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "NextState" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "NextState" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "NextState" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "ALUControl" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "ALUControl" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:919]
+INFO: [Synth 8-5545] ROM "Zero0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "RAM" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RAM" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "AN" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tub" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ReadData" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   FETCH |                             0000 |                             0001
+                  DECODE |                             0001 |                             0010
+                 EXECUTE |                             0010 |                             0110
+                ALUTOREG |                             0011 |                             1001
+                  BRLINK |                             0100 |                             1010
+                  BRANCH |                             0101 |                             1011
+                JUMPLINK |                             0110 |                             0011
+                    JUMP |                             0111 |                             0101
+                 MEMADDR |                             1000 |                             0100
+                 MEMREAD |                             1001 |                             1000
+                MEMTOREG |                             1010 |                             1100
+                MEMWRITE |                             1011 |                             0111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'State_reg' using encoding 'sequential' in module 'MainController'
+WARNING: [Synth 8-327] inferring latch for variable 'ALUControl_reg' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:751]
+WARNING: [Synth 8-327] inferring latch for variable 'ReadData_reg' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:144]
+WARNING: [Synth 8-327] inferring latch for variable 'ReadData_reg' [C:/Users/13723/vivado/queue_bank/queue_bank.srcs/sources_1/new/mips.v:74]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 744.984 ; gain = 488.133
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   3 Input     16 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 6     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---RAMs : 
+	             128K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 11    
+	   4 Input     32 Bit        Muxes := 8     
+	   3 Input     32 Bit        Muxes := 3     
+	   6 Input     32 Bit        Muxes := 1     
+	   8 Input     32 Bit        Muxes := 1     
+	   5 Input     32 Bit        Muxes := 1     
+	  21 Input      5 Bit        Muxes := 1     
+	  28 Input      5 Bit        Muxes := 1     
+	   7 Input      5 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 2     
+	  29 Input      4 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	  15 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 11    
+	   6 Input      3 Bit        Muxes := 3     
+	   5 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	  15 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	  12 Input      3 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 9     
+	  15 Input      2 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	  12 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 12    
+	   3 Input      1 Bit        Muxes := 5     
+	  12 Input      1 Bit        Muxes := 8     
+	   7 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Mux2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module MainController 
+Detailed RTL Component Info : 
++---Muxes : 
+	  12 Input      4 Bit        Muxes := 2     
+	  29 Input      4 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	  15 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 11    
+	   6 Input      3 Bit        Muxes := 3     
+	   5 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	  15 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	  12 Input      3 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 6     
+	  15 Input      2 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	  12 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 8     
+Module ALUDecoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	  21 Input      5 Bit        Muxes := 1     
+	  28 Input      5 Bit        Muxes := 1     
+	   7 Input      5 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+Module Mux2__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module FlopEn 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module Flop 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module FlopEnReset 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module RegisterFile 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module Mux4 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      5 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+Module ZeroDetect 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module OverflowDetect 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module SignedCompare 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module Mux4__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module MemoryController 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     16 Bit       Adders := 1     
++---RAMs : 
+	             128K Bit         RAMs := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 7     
+	   2 Input     32 Bit        Muxes := 5     
+	   3 Input     32 Bit        Muxes := 3     
+	   6 Input     32 Bit        Muxes := 1     
+	   8 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+Module IO_Controller 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   5 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "ZeroFlag/Zero0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5587] ROM size for "Processor/Decode/ALUControl" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[8]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[9]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[10]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[11]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[12]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[13]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[14]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[21]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[22]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[23]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[24]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[25]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[15]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[20]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[18]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[19]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[17]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[16]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[26]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[27]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[28]' (LD) to 'IO/ReadData_reg[31]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[31]' (LD) to 'IO/ReadData_reg[30]'
+INFO: [Synth 8-3886] merging instance 'IO/ReadData_reg[30]' (LD) to 'IO/ReadData_reg[29]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\IO/ReadData_reg[29] )
+WARNING: [Synth 8-3332] Sequential element (IO/ReadData_reg[29]) is unused and will be removed from module Top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 744.984 ; gain = 488.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++-----------------+-----------------------+-----------+----------------------+-------------------+
+|Module Name      | RTL Object            | Inference | Size (Depth x Width) | Primitives        | 
++-----------------+-----------------------+-----------+----------------------+-------------------+
+|\Processor/Path  | RegFile/Registers_reg | Implied   | 32 x 32              | RAM32M x 12       | 
+|Memory           | RAM_reg               | Implied   | 4 K x 32             | RAM256X1S x 512   | 
++-----------------+-----------------------+-----------+----------------------+-------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 746.984 ; gain = 490.133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:48 . Memory (MB): peak = 748.570 ; gain = 491.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++-----------------+-----------------------+-----------+----------------------+-------------------+
+|Module Name      | RTL Object            | Inference | Size (Depth x Width) | Primitives        | 
++-----------------+-----------------------+-----------+----------------------+-------------------+
+|\Processor/Path  | RegFile/Registers_reg | Implied   | 32 x 32              | RAM32M x 12       | 
+|Memory           | RAM_reg               | Implied   | 4 K x 32             | RAM256X1S x 512   | 
++-----------------+-----------------------+-----------+----------------------+-------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 812.953 ; gain = 556.102
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 812.953 ; gain = 556.102
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 812.953 ; gain = 556.102
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 812.953 ; gain = 556.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 812.953 ; gain = 556.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 812.953 ; gain = 556.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 812.953 ; gain = 556.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     2|
+|2     |CARRY4    |    16|
+|3     |LUT1      |     1|
+|4     |LUT2      |    49|
+|5     |LUT3      |    88|
+|6     |LUT4      |   215|
+|7     |LUT5      |   313|
+|8     |LUT6      |   634|
+|9     |MUXF7     |    64|
+|10    |MUXF8     |    32|
+|11    |RAM256X1S |   512|
+|12    |RAM32M    |    12|
+|13    |FDRE      |   207|
+|14    |LD        |    45|
+|15    |IBUF      |    13|
+|16    |OBUF      |    11|
++------+----------+------+
+
+Report Instance Areas: 
++------+-------------------+-----------------+------+
+|      |Instance           |Module           |Cells |
++------+-------------------+-----------------+------+
+|1     |top                |                 |  2214|
+|2     |  Memory           |MemoryController |   768|
+|3     |  IO               |IO_Controller    |    27|
+|4     |  Processor        |MIPS             |  1381|
+|5     |    Control        |MainController   |   378|
+|6     |    Decode         |ALUDecoder       |   125|
+|7     |    Path           |DataPath         |   878|
+|8     |      ALUResultReg |Flop             |    37|
+|9     |      ALUnit       |ALU              |    16|
+|10    |      DataReg      |Flop_0           |    32|
+|11    |      IRReg        |FlopEn           |   694|
+|12    |      PCReg        |FlopEnReset      |    33|
+|13    |      RSReg        |Flop_1           |    34|
+|14    |      RTReg        |Flop_2           |    32|
++------+-------------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 812.953 ; gain = 556.102
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 812.953 ; gain = 222.594
+Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:51 . Memory (MB): peak = 812.953 ; gain = 556.102
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 694 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 569 instances were transformed.
+  LD => LDCE: 45 instances
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 512 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+143 Infos, 137 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:00:55 . Memory (MB): peak = 812.953 ; gain = 568.926
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/13723/vivado/queue_bank/queue_bank.runs/synth_1/Top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Top_utilization_synth.rpt -pb Top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.104 . Memory (MB): peak = 812.953 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 11 22:38:08 2018...
